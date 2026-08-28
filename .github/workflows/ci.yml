@@ -31,3 +31,5 @@ jobs:
           META_MODE: mock
           API_KEY: forestin-meta-poc
         run: pytest -q
+
+# GitHub se usa para CI y versionamiento; esta API no se despliega en Pages.
